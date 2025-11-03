@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manga Motion — AI Manga Creator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="assets/logo.png" alt="Manga Motion" class="logo" />
+      <h1>Manga Motion</h1>
+      <p class="tagline">Create stunning AI-powered manga scenes</p>
+    </header>
+
+    <section class="generator">
+      <input type="text" id="prompt" placeholder="Describe your manga scene..." />
+      <button onclick="generateImage()">Generate</button>
+    </section>
+
+    <section class="output">
+      <img id="outputImage" src="assets/bg.jpg" alt="Generated Manga Scene" />
+      <p id="status">Your AI-generated manga scene will appear here.</p>
+    </section>
+
+    <footer>
+      <p>Powered by GPT + Vision Engine | © 2025 Manga Motion</p>
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
